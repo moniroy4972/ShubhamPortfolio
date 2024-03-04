@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('https://wallpaperaccess.com/full/5651990.jpg');
+}
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    height: 10vh;
+}
+.navbar li{
+    list-style: none;
+    color: white;
+    margin-right: 50px;
+    /* padding: 8px; */
+    font-size: 20px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.contact{
+    color: white;
+    border: 8px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 800px;
+   padding: 60px;
+   border-top-left-radius: 40%;
+   border-bottom-right-radius: 40%;
+}
+.contact input{
+    padding: 10px;
+    margin-top: 20px;
+    width: 250px;
+}
+.btn{
+    padding: 5px;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://th.bing.com/th/id/OIP.QF4wr2wts-Dt3ivsRi_cOAHaEK?rs=1&pid=ImgDetMain');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    height: 10vh;
+}
+.navbar li{
+    list-style: none;
+    color: white;
+    margin-right: 50px;
+    /* padding: 8px; */
+    font-size: 20px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.dataimg{
+    width: 450px;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.heading{
+    color: rgb(226, 63, 63);
+    margin: 100px 50px;
+    line-height: 50px;
+    
+}
+span{
+    color: rgb(224, 153, 153);
+    font-size: 30px;
+}
+.span2{
+    color: white;
+    font-size: 60px;
+    border-bottom: 3px solid white; 
+}
